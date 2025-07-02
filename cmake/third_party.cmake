@@ -81,6 +81,16 @@ set_target_properties(doctest
 )
 
 CPMAddPackage(
+  NAME mutlass
+  VERSION 0.2.0
+  GITHUB_REPOSITORY MooreThreads/mutlass
+  GIT_TAG 68f1bf1806f5435246518bbeecd3aa810704e3ae
+  OPTIONS
+    "CMAKE_POLICY_VERSION_MINIMUM 3.10"
+    "MUTLASS_ENABLE_HEADERS_ONLY ON"
+)
+
+CPMAddPackage(
   NAME Matplot++
   VERSION 1.2.2
   URL https://github.com/alandefreitas/matplotplusplus/archive/refs/tags/v1.2.2.tar.gz
