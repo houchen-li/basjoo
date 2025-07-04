@@ -10,6 +10,7 @@ project(Basjoo
   LANGUAGES
     C
     CXX
+    MUSA
 )
 set(BASJOO_SOVERSION 0 CACHE INTERNAL "Basjoo shared library version")
 
