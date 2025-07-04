@@ -8,6 +8,10 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.autoIndent": "full",
+    "files.associations": {
+        "*.mu": "cuda-cpp",
+        "*.muh": "cuda-cpp"
+    },
     "C_Cpp.intelliSenseEngine": "disabled",
     "C_Cpp.intelliSenseCachePath": "/tmp/vscode-cpptools",
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
@@ -30,10 +34,10 @@
         "-j=8",
         "--pch-storage=memory"
     ],
-    "doxdocgen.generic.useGitUserEmail": true,
     "doxdocgen.generic.useGitUserName": true,
+    "doxdocgen.generic.useGitUserEmail": true,
     "doxdocgen.file.copyrightTag": [
-        "@copyright Copyright (c) {year} Basjoo Development Team.",
+        "@copyright Copyright (c) 2024 - {year} Moore Threads Technology Co., Ltd(\"Moore Threads\").",
         "           All rights reserved."
     ],
     "[cpp]": {
